@@ -1,0 +1,43 @@
+body {
+    background-color: #090E16;
+}
+
+nav {
+    width: 1640px;
+    height: 64px;
+    position: absolute;
+    left: 140px;
+    top: 38px;
+}
+
+#intro {
+    font-family: 'Roboto Mono', monospace;
+    color: white;
+    position: absolute;
+    width: 411px;
+    height: 189px;
+    left: 140px;
+    top: 299px;
+}
+
+#Name {
+    font-weight: 800;
+    font-size: 52px;
+    line-height: 61px;
+}
+
+
+nav a {
+    text-decoration: none;
+    /* float: right; */
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    /* display: flex; */
+    padding-left: 16.5px;
+    align-items: center;
+}
+
+nav a:link {
+    color: #fff;
+}
