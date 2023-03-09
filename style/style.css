@@ -1,0 +1,151 @@
+body{
+    background-color: black;
+    color: #fff;
+}
+
+.mcontainer{
+    margin: 20px;
+}
+
+
+.navbar-brand{
+    font-size: 30px;
+    color: white;    
+    text-decoration: none;
+}
+
+
+#intro{
+    
+    margin-top: 25%;
+    padding-left: 6%;
+    font-weight: 200;
+    max-width: 25ch;
+    font-size: 70px;
+    opacity: .92;
+    
+}
+
+hr{
+    /* margin: 10% 2%; */
+    opacity: 0.5;
+    
+}
+
+.subcont{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+#intro{
+    flex-basis: 60%;
+}
+#myimage{
+    margin-top: 20%;
+    /* filter: drop-shadow(10px 10px 10px); */
+    flex-basis: 30%;
+
+}
+
+.con1{
+    font-size: 20px;
+ margin-bottom: 10%;    
+    font-weight: 200;
+}
+
+.table{
+    width: 100%;
+}
+
+
+#random{
+    max-width: 23ch;
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 700;
+}
+
+#sub{
+    background-color: #fff;
+    color: black;
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+    padding-left: 20px;
+    border: none;
+    padding-right: 20px;
+}
+
+
+.foot{
+    
+    margin: 0 3%;
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.foottext{
+    font-size: large;
+   
+}
+.foottext a{
+    color: #fff;
+    color: white;
+    text-decoration: none;
+}
+
+.icon   {
+    margin-right: 8px;
+}
+
+.ad{
+    display: flex;
+    justify-content: space-between;    
+    margin: 0 3% ;
+}
+
+#resume a{
+    text-decoration: underline;
+    color: white;
+    margin-bottom: 2px;
+    font-size: 20px;
+
+}
+
+.tophr{
+    display: flex;
+    
+    justify-content: space-between;
+    font-size: medium;
+}
+
+.some{
+    margin: 0  25%;
+    font-size: 1.5rem;
+    margin-top: 15%;
+}
+.experience{
+    margin: 10% 25%;
+    font-size: 1.5rem;
+}
+.contact{
+    margin-top: 8%;
+}
+
+.project{
+    display: flex;
+    flex-direction: row;
+    margin: 15% 10%;
+    justify-content: space-between;
+}
+
+.pname{
+    margin-right: 5%;
+}
+
+.pname:hover{
+    background-image: "assets/image/socialicons/linkedin.png";
+}

@@ -1,0 +1,71 @@
+body {
+    background-color: black;
+    color: #fff;
+    margin: 30px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+.navbar-brand{
+    font-size: 30px;
+    margin: 20px;   
+    color: white;    
+    text-decoration: none;
+}
+.answer {
+    width: 100%;
+    letter-spacing: 1.5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 40px;
+    border-radius: 10px;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
+.label {
+    font-size: 30px;
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 1.5px;
+}
+
+#area {
+    width: 100%;
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.randomText {
+    margin-top: 50px;
+    padding: 50px;
+    font-size: 52px;
+    letter-spacing: 1.25px;
+    width: 40%;
+    margin-left: 50px;
+    margin-right: 200px;
+    font-family: 'Roboto Mono', monospace;
+}
+#emoji{
+    font-size: 80px;
+    margin-bottom: 15px;
+}
+.container {
+    margin-top: 8%;
+    display: flex;
+    direction: row;
+    /* align-items: center; */
+}
+button{
+    border-radius: 20px;
+    background-color: rgb(231, 62, 62);
+    text-align: center;
+    margin: 5px 0;
+    padding: 0 10px;
+}
