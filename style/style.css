@@ -149,3 +149,40 @@ hr{
 .pname:hover{
     background-image: "assets/image/socialicons/linkedin.png";
 }
+
+.blog
+{
+    margin: 15% 6%;
+}
+.blog img{
+    height: 250px;
+    border-radius: 15px;
+}
+
+.card{
+    background-color: #ffffff;
+    color: black;
+    border-radius: 10px;
+    
+}
+
+.card-image{
+    border-radius: 15px;
+}
+
+.blog .card-title{
+    text-align: center;
+    margin: 0;
+
+
+}
+
+.blog .card-text{
+    font-size: 20px;
+    justify-content: space-around;
+}
+
+.blog a img{
+    width: 100%;
+    margin: 0;
+}
