@@ -153,9 +153,12 @@ hr{
 .blog
 {
     margin: 15% 6%;
+    
 }
+
+
 .blog img{
-    height: 250px;
+    height: 230px;
     border-radius: 15px;
 }
 
@@ -163,6 +166,7 @@ hr{
     background-color: #ffffff;
     color: black;
     border-radius: 10px;
+    
     
 }
 
@@ -172,13 +176,15 @@ hr{
 
 .blog .card-title{
     text-align: center;
+ 
     margin: 0;
 
 
 }
 
 .blog .card-text{
-    font-size: 20px;
+    font-size: 15px;
+    padding: 10px;
     justify-content: space-around;
 }
 
@@ -186,3 +192,4 @@ hr{
     width: 100%;
     margin: 0;
 }
+
