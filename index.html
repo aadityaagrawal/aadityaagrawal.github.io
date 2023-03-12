@@ -55,14 +55,28 @@
     <div class="container">
       <div class="project">
         <div class="pname">
-          Lorem, ipsum.
+          <div class="pnamesss interview">
+            Interview Scheduling Portal
+          </div>
+          <div class="pnamesss number">
+            Automatic Number Plate Recognition
+          </div>
+          
+          <div class="pnamesss denoise">
+            Image Denoising
+          </div>
+          <div class="pnamesss generate">
+            Image Generator
+          </div>
         </div>
         <div class="pimage">
-          <img src="./assets/image/me.png" alt="">
+          <img src="./assets/image/project/interview.png"  alt="">
         </div>
       </div>
     </div>
     <hr>
+
+    
 
     <!-- --------------------------Blogs------------------------------ -->
     <div class="tophr">
@@ -74,14 +88,18 @@
       </span>
     </div>
 
-    
+
 
     <div class="card blog " style="width: 28rem; border: 8px solid rgba(0, 0, 0, 0.6);">
-      <a href="https://medium.com/@adityakuagrawal/mongodb-a-beginners-guide-884dbbae1aee" target="_blank" rel="noopener noreferrer"><img src="./assets/image/project/mongodb.png" class="card-img-top" alt="mongodb icon"></a>
+      <a href="https://medium.com/@adityakuagrawal/mongodb-a-beginners-guide-884dbbae1aee" target="_blank"
+        rel="noopener noreferrer"><img src="./assets/image/project/mongodb.png" class="card-img-top"
+          alt="mongodb icon"></a>
       <hr>
       <div class="card-body ">
         <h1 class="card-title">MongoDB</h1>
-        <p class="card-text">MongoDB is a powerful database that has become increasingly popular in recent years. In this blog post, I'll walk you through the fundamentals of MongoDB, including its data model, schema design, and CRUD operation.</p>
+        <p class="card-text">MongoDB is a powerful database that has become increasingly popular in recent years. In
+          this blog post, I'll walk you through the fundamentals of MongoDB, including its data model, schema design,
+          and CRUD operation.</p>
       </div>
 
     </div>
@@ -132,6 +150,7 @@
             <th scope="col">SRMIST</th>
           </tr>
         </thead>
+        
         <thead>
           <tr>
             <th scope="col">2022-2022</th>
@@ -222,6 +241,39 @@
 
 
   </footer>
+
+  <script>
+    const changeImg = document.querySelector('.pimage img');
+
+    // ------------ANPR---------
+    document.querySelector('.number').addEventListener('mouseover', () => {
+      changeImg.src = 'assets/image/project/anpr1.jpeg';
+    });
+
+    document.querySelector('.number').addEventListener('mouseout', () => {
+      changeImg.src = 'assets/image/project/interview.png';
+    });
+
+    // ----------Image Denoising----------
+    document.querySelector('.denoise').addEventListener('mouseover', () => {
+      changeImg.src = 'assets/image/project/denoising.png';
+    });
+
+    document.querySelector('.denoise').addEventListener('mouseout', () => {
+      changeImg.src = 'assets/image/project/interview.png';
+    });
+
+    // --------------- Image Generator--------------
+    document.querySelector('.generate').addEventListener('mouseover', () => {
+      changeImg.src = 'assets/image/project/image_generator.png';
+    });
+
+    document.querySelector('.generate').addEventListener('mouseout', () => {
+      changeImg.src = 'assets/image/project/interview.png';
+    });
+
+
+  </script>
 
 </body>
 
